@@ -280,11 +280,11 @@ PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
 # this doesn't mean anything to you.
 CONF_VERSION = "2"
 
-# Custom
+## Custom
 
-DL_DIR = "/home/red/work/downloads/langdale"
-SSTATE_DIR = "/home/red/work/builds/langdale/example/sstate-cache"
-TMPDIR = "/home/red/work/builds/langdale/example/tmp"
+DL_DIR = "/home/red/yocto/downloads/langdale"
+SSTATE_DIR = "/home/red/yocto/builds/langdale/sstate-cache"
+TMPDIR = "/home/red/yocto/builds/langdale/tmp"
 
 # Debug tweaks (see https://docs.yoctoproject.org/ref-manual/features.html#ref-features-image)
 EXTRA_IMAGE_FEATURESi:append = " debug-tweaks empty-root-password allow-empty-password"
